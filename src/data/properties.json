@@ -1,0 +1,1521 @@
+{
+  "instagramUrl": "https://www.instagram.com/veylora_.1?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==",
+  "properties": [
+    {
+      "slug": "riverstone-residency",
+      "name": "Riverstone Residency",
+      "location": "College Road, Nashik",
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "type": "Apartment",
+      "config": "3 BHK Apartment",
+      "price": 7200000,
+      "priceLabel": "₹72 Lakhs",
+      "priceNote": "₹5,070 / sq.ft.",
+      "area": 1420,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "floors": 0,
+      "status": "Ready to Move",
+      "possession": "Immediate",
+      "facing": "East",
+      "furnishing": "Unfurnished",
+      "rating": 4.6,
+      "featured": true,
+      "isNew": false,
+      "artScene": "apartment",
+      "tagline": "Wide river-side light in the heart of College Road",
+      "description": "A quiet nine-storey tower set back from College Road, where the floor plans open onto deep sit-out balconies facing the Godavari belt. Mornings here start with cross-breezes off the water and end with the city's lights below.",
+      "shortDescription": "River-facing 3 BHK homes with deep balconies, minutes from College Road's cafés and schools.",
+      "highlights": [
+        "Corner living room with 10 ft ceilings",
+        "Two covered parking bays per home",
+        "Rooftop residents' deck with river views"
+      ],
+      "amenities": [
+        "Landscaped podium garden",
+        "Rooftop lounge",
+        "Gymnasium",
+        "Children's play area",
+        "Indoor games room",
+        "24×7 security with CCTV",
+        "Power backup for common areas",
+        "Rainwater harvesting"
+      ],
+      "specifications": [
+        [
+          "Structure",
+          "RCC frame, seismic zone III compliant"
+        ],
+        [
+          "Flooring",
+          "800×800 mm vitrified tiles throughout"
+        ],
+        [
+          "Kitchen",
+          "Granite platform with stainless sink and water point"
+        ],
+        [
+          "Bathrooms",
+          "Designer CP fittings, glazed dado tiles up to lintel"
+        ],
+        [
+          "Doors & Windows",
+          "Teak-finish flush doors, powder-coated sliding windows"
+        ],
+        [
+          "Electrical",
+          "Concealed copper wiring, modular switches, AC points in all rooms"
+        ]
+      ],
+      "nearby": [
+        [
+          "Godavari riverside walkway",
+          "0.6 km"
+        ],
+        [
+          "Nashik Club",
+          "1.2 km"
+        ],
+        [
+          "Fravashi Academy",
+          "1.8 km"
+        ],
+        [
+          "College Road Market",
+          "0.4 km"
+        ],
+        [
+          "Nashik Road Railway Station",
+          "9.5 km"
+        ]
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1556912167-f556f1f39fdf?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1200&q=75&auto=format&fit=crop"
+      ],
+      "photoCredit": "Unsplash (free to use)"
+    },
+    {
+      "slug": "saffron-crest-villas",
+      "name": "Saffron Crest Villas",
+      "location": "Gangapur Road, Nashik",
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "type": "Villa",
+      "config": "4 BHK Villa",
+      "price": 23500000,
+      "priceLabel": "₹2.35 Cr",
+      "priceNote": "₹11,190 / sq.ft.",
+      "area": 2100,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "floors": 2,
+      "status": "Ready to Move",
+      "possession": "Immediate",
+      "facing": "North-East",
+      "furnishing": "Semi-furnished",
+      "rating": 4.9,
+      "featured": true,
+      "isNew": false,
+      "artScene": "villa",
+      "tagline": "A courtyard villa built around evening light",
+      "description": "Four homes in a gated row on Gangapur Road, each planned around a private courtyard that pulls the setting sun into the living room. Vine-covered pergolas, a 40-ft lap pool and a double-height family lounge complete the plan.",
+      "shortDescription": "Courtyard villas with private pools on Gangapur Road, in a four-home gated row.",
+      "highlights": [
+        "Private 40-ft lap pool and sun deck",
+        "Double-height living room with skylight",
+        "Home-office studio above the garage"
+      ],
+      "amenities": [
+        "Private pool",
+        "Gated community with security cabin",
+        "Landscaped courtyard",
+        "Servant quarters with separate entry",
+        "Covered parking for two cars",
+        "Solar water heating",
+        "STP and rainwater harvesting",
+        "Video door phone"
+      ],
+      "specifications": [
+        [
+          "Structure",
+          "RCC frame with AAC block infill"
+        ],
+        [
+          "Flooring",
+          "Italian marble in living areas, vitrified in bedrooms"
+        ],
+        [
+          "Kitchen",
+          "Modular kitchen with quartz counter and chimney point"
+        ],
+        [
+          "Bathrooms",
+          "Grohe CP fittings, textured feature walls"
+        ],
+        [
+          "Doors & Windows",
+          "Slim-profile aluminium windows with mesh shutters"
+        ],
+        [
+          "Electrical",
+          "Smart-home ready conduit points, EV charging in garage"
+        ]
+      ],
+      "nearby": [
+        [
+          "Gangapur Dam backwaters",
+          "3.2 km"
+        ],
+        [
+          "Ashoka Marg retail belt",
+          "2.4 km"
+        ],
+        [
+          "Delhi Public School",
+          "4.1 km"
+        ],
+        [
+          "Sahyadri Golf Club",
+          "5.0 km"
+        ],
+        [
+          "Nashik city centre",
+          "8.6 km"
+        ]
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=75&auto=format&fit=crop"
+      ],
+      "photoCredit": "Unsplash (free to use)"
+    },
+    {
+      "slug": "banyan-court-rowhouses",
+      "name": "Banyan Court Row Houses",
+      "location": "Pathardi Phata, Nashik",
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "type": "Row House",
+      "config": "3 BHK Row House",
+      "price": 11500000,
+      "priceLabel": "₹1.15 Cr",
+      "priceNote": "₹7,666 / sq.ft.",
+      "area": 1500,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "floors": 2,
+      "status": "Under Construction",
+      "possession": "Dec 2026",
+      "facing": "East",
+      "furnishing": "Unfurnished",
+      "rating": 4.4,
+      "featured": true,
+      "isNew": true,
+      "artScene": "rowhouse",
+      "tagline": "Terrace-living row houses along a shared green spine",
+      "description": "Eight duplex row houses arranged around a car-free central green, planned for families who want a front garden without villa upkeep. Each home gets a private terrace, a rear utility yard and a dedicated stud parking bay.",
+      "shortDescription": "Duplex row houses around a car-free green spine, with private terraces and gardens.",
+      "highlights": [
+        "Private rear garden with utility yard",
+        "Car-free central green for children",
+        "Rooftop terrace with pergola points"
+      ],
+      "amenities": [
+        "Central landscaped green",
+        "Children's play lawn",
+        "Gated entry with intercom",
+        "Dedicated stud parking",
+        "Jogging loop",
+        "Community herb garden",
+        "Rainwater harvesting",
+        "Fire-fighting system as per norms"
+      ],
+      "specifications": [
+        [
+          "Structure",
+          "RCC framed structure with brick masonry"
+        ],
+        [
+          "Flooring",
+          "Vitrified tiles; anti-skid ceramic in wet areas"
+        ],
+        [
+          "Kitchen",
+          "Plumbing and electrical points for modular kitchen"
+        ],
+        [
+          "Bathrooms",
+          "Jaguar-range CP fittings, textured plaster feature wall"
+        ],
+        [
+          "Doors & Windows",
+          "UPVC windows with mosquito mesh"
+        ],
+        [
+          "Electrical",
+          "ISI copper wiring, inverter-ready points"
+        ]
+      ],
+      "nearby": [
+        [
+          "Pathardi Phata market",
+          "0.5 km"
+        ],
+        [
+          "Ashoka Universal School",
+          "1.6 km"
+        ],
+        [
+          "Mumbai–Agra highway entry",
+          "2.8 km"
+        ],
+        [
+          "Sinnar MIDC corridor",
+          "14 km"
+        ],
+        [
+          "Nashik airport",
+          "22 km"
+        ]
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200&q=75&auto=format&fit=crop"
+      ],
+      "photoCredit": "Unsplash (free to use)"
+    },
+    {
+      "slug": "sunstone-heights",
+      "name": "Sunstone Heights",
+      "location": "Indira Nagar, Nashik",
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "type": "Apartment",
+      "config": "2 BHK Apartment",
+      "price": 4800000,
+      "priceLabel": "₹48 Lakhs",
+      "priceNote": "₹5,333 / sq.ft.",
+      "area": 900,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "floors": 0,
+      "status": "Ready to Move",
+      "possession": "Immediate",
+      "facing": "West",
+      "furnishing": "Unfurnished",
+      "rating": 4.3,
+      "featured": false,
+      "isNew": false,
+      "artScene": "apartment",
+      "tagline": "Efficient 2 BHK homes minutes from the college belt",
+      "description": "A compact 12-home building designed around zero wasted corridor space. Both bedrooms take external light, the kitchen opens to a drying balcony, and the society shares a neat rooftop laundry and sit-out.",
+      "shortDescription": "Light-filled 2 BHK homes with dual-aspect bedrooms, close to colleges and hospitals.",
+      "highlights": [
+        "Dual-aspect bedrooms with storage lofts",
+        "Separate drying balcony off the kitchen",
+        "Rooftop sit-out shared by six families"
+      ],
+      "amenities": [
+        "Rooftop sit-out",
+        "Lift with power backup",
+        "Covered stilt parking",
+        "CCTV at entry",
+        "Society office",
+        "Water storage sump"
+      ],
+      "specifications": [
+        [
+          "Structure",
+          "RCC frame"
+        ],
+        [
+          "Flooring",
+          "Vitrified tiles throughout"
+        ],
+        [
+          "Kitchen",
+          "Black granite platform with drainboard sink"
+        ],
+        [
+          "Bathrooms",
+          "Anti-skid flooring, CP fittings"
+        ],
+        [
+          "Doors & Windows",
+          "Flush doors, aluminium sliding windows"
+        ],
+        [
+          "Electrical",
+          "Concealed wiring with modular plates"
+        ]
+      ],
+      "nearby": [
+        [
+          "Indira Nagar market",
+          "0.3 km"
+        ],
+        [
+          "BYK Hospital",
+          "1.1 km"
+        ],
+        [
+          "KTHM College",
+          "1.5 km"
+        ],
+        [
+          "Nashik CBS",
+          "3.4 km"
+        ],
+        [
+          "Nashik Road station",
+          "10 km"
+        ]
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1200&q=75&auto=format&fit=crop"
+      ],
+      "photoCredit": "Unsplash (free to use)"
+    },
+    {
+      "slug": "cedar-grove-penthouse",
+      "name": "Cedar Grove Penthouse",
+      "location": "Koregaon Park, Pune",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "type": "Penthouse",
+      "config": "4 BHK Penthouse",
+      "price": 42000000,
+      "priceLabel": "₹4.2 Cr",
+      "priceNote": "₹16,800 / sq.ft.",
+      "area": 2500,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "floors": 1,
+      "status": "Ready to Move",
+      "possession": "Immediate",
+      "facing": "North-West",
+      "furnishing": "Fully furnished",
+      "rating": 4.8,
+      "featured": true,
+      "isNew": false,
+      "artScene": "penthouse",
+      "tagline": "A skyline terrace home above the treetops of Koregaon Park",
+      "description": "The top two floors of a boutique 2019 building on Lane 7, planned around a wraparound terrace that holds both a dining pergola and a private plunge pool. Interiors are done in warm oak and charcoal, with a floating steel staircase at the core.",
+      "shortDescription": "Duplex penthouse with a wraparound terrace terrace, plunge pool and skyline views over Koregaon Park.",
+      "highlights": [
+        "Wraparound terrace with plunge pool",
+        "Floating steel staircase with skylight",
+        "Private elevator lobby with video door phone"
+      ],
+      "amenities": [
+        "Private plunge pool",
+        "Private elevator access",
+        "Home automation pre-wiring",
+        "Terrace pergola with utilities",
+        "Two dedicated covered parking bays",
+        "Staff quarters",
+        "Building gym access",
+        "Concierge desk"
+      ],
+      "specifications": [
+        [
+          "Structure",
+          "RCC frame with engineered shear core"
+        ],
+        [
+          "Flooring",
+          "Engineered oak in living areas, marble in baths"
+        ],
+        [
+          "Kitchen",
+          "German modular kitchen with island and built-in appliances"
+        ],
+        [
+          "Bathrooms",
+          "Wall-hung sanitaryware, thermostatic showers"
+        ],
+        [
+          "Doors & Windows",
+          "Full-height sliding systems with double glazing"
+        ],
+        [
+          "Electrical",
+          "KNX-ready wiring, dimmable lighting circuits"
+        ]
+      ],
+      "nearby": [
+        [
+          "Koregaon Park Lane 5 café strip",
+          "0.4 km"
+        ],
+        [
+          "Osho Garden",
+          "0.9 km"
+        ],
+        [
+          "Pune railway station",
+          "5.5 km"
+        ],
+        [
+          "Symbiosis campus",
+          "3.8 km"
+        ],
+        [
+          "Pune airport",
+          "8.2 km"
+        ]
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1200&q=75&auto=format&fit=crop"
+      ],
+      "photoCredit": "Unsplash (free to use)"
+    },
+    {
+      "slug": "marigold-lane-homes",
+      "name": "Marigold Lane Homes",
+      "location": "Panchavati, Nashik",
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "type": "Independent House",
+      "config": "3 BHK Independent House",
+      "price": 8900000,
+      "priceLabel": "₹89 Lakhs",
+      "priceNote": "₹6,857 / sq.ft.",
+      "area": 1300,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "floors": 1,
+      "status": "Ready to Move",
+      "possession": "Immediate",
+      "facing": "North",
+      "furnishing": "Semi-furnished",
+      "rating": 4.5,
+      "featured": false,
+      "isNew": false,
+      "artScene": "independent",
+      "tagline": "A walled family home with a mango tree at its centre",
+      "description": "An older-family bungalow rebuilt in 2022 on a 3,000 sq.ft. plot in Panchavati. The plan keeps the original mango tree as the courtyard centrepiece, with rooms arranged in an L around a deep veranda.",
+      "shortDescription": "Rebuilt walled bungalow in Panchavati with a mango-tree courtyard and deep veranda.",
+      "highlights": [
+        "Courtyard with mature mango tree",
+        "Deep front veranda for evening seating",
+        "Separate one-room annexe for guests or study"
+      ],
+      "amenities": [
+        "Walled compound with gate",
+        "Borewell plus municipal water",
+        "Covered parking",
+        "Solar water heater",
+        "Kitchen garden bed",
+        "Outdoor wash area"
+      ],
+      "specifications": [
+        [
+          "Structure",
+          "Load-bearing brick with RCC slab roof"
+        ],
+        [
+          "Flooring",
+          "Kota stone and ceramic tiles"
+        ],
+        [
+          "Kitchen",
+          "Tiled platform with storage loft"
+        ],
+        [
+          "Bathrooms",
+          "Anti-skid tiles, CP fittings"
+        ],
+        [
+          "Doors & Windows",
+          "Teak wood frames, mesh-panelled windows"
+        ],
+        [
+          "Electrical",
+          "Re-wired in 2022 with copper circuits"
+        ]
+      ],
+      "nearby": [
+        [
+          "Panchavati Karanjala",
+          "0.8 km"
+        ],
+        [
+          "Kalaram Temple",
+          "1.4 km"
+        ],
+        [
+          "Ram Kund ghat",
+          "2.0 km"
+        ],
+        [
+          "Nashik CBS",
+          "5.0 km"
+        ],
+        [
+          "Dwarka Circle",
+          "4.2 km"
+        ]
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1200&q=75&auto=format&fit=crop"
+      ],
+      "photoCredit": "Unsplash (free to use)"
+    },
+    {
+      "slug": "orbit-skyline-towers",
+      "name": "Orbit Skyline Towers",
+      "location": "Hinjawadi Phase 2, Pune",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "type": "Apartment",
+      "config": "3 BHK Apartment",
+      "price": 9800000,
+      "priceLabel": "₹98 Lakhs",
+      "priceNote": "₹6,950 / sq.ft.",
+      "area": 1410,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "floors": 0,
+      "status": "Under Construction",
+      "possession": "Jun 2027",
+      "facing": "South-East",
+      "furnishing": "Unfurnished",
+      "rating": 4.2,
+      "featured": true,
+      "isNew": true,
+      "artScene": "apartment",
+      "tagline": "IT-corridor homes with a 12th-floor sky lounge",
+      "description": "Two 22-storey towers on the quiet side of Hinjawadi Phase 2, designed for tech families who want short commutes without living inside an office park. A sky lounge on the 12th floor doubles as the residents' workspace by day.",
+      "shortDescription": "High-rise 3 BHK homes with a co-working sky lounge, minutes from Hinjawadi's IT park.",
+      "highlights": [
+        "12th-floor sky lounge and co-work deck",
+        "Podium-level cricket net and play court",
+        "Direct shuttle point to IT park gates"
+      ],
+      "amenities": [
+        "Infinity-edge pool",
+        "Sky lounge co-working deck",
+        "Gymnasium and yoga room",
+        "Cricket practice net",
+        "Children's play zone",
+        "Clubhouse with pantry",
+        "EV charging bays",
+        "24×7 security"
+      ],
+      "specifications": [
+        [
+          "Structure",
+          "RCC shear-wall construction"
+        ],
+        [
+          "Flooring",
+          "Vitrified tiles in living/bedrooms, anti-skid in wet areas"
+        ],
+        [
+          "Kitchen",
+          "Provision for modular kitchen, piped gas point"
+        ],
+        [
+          "Bathrooms",
+          "Branded CP fittings, designer wall tiles"
+        ],
+        [
+          "Doors & Windows",
+          "Pre-painted aluminium windows with MS safety grills"
+        ],
+        [
+          "Electrical",
+          "ISI wiring, AC points, inverter backup for lights"
+        ]
+      ],
+      "nearby": [
+        [
+          "Hinjawadi IT Park Phase 1",
+          "2.2 km"
+        ],
+        [
+          "Marigold Mall",
+          "1.5 km"
+        ],
+        [
+          "Aditya Birla Hospital",
+          "4.0 km"
+        ],
+        [
+          "Mumbai–Bengaluru highway",
+          "3.6 km"
+        ],
+        [
+          "Pune station",
+          "21 km"
+        ]
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1567496898669-ee935f5f647a?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1200&q=75&auto=format&fit=crop"
+      ],
+      "photoCredit": "Unsplash (free to use)"
+    },
+    {
+      "slug": "terra-vista-plots",
+      "name": "Terra Vista Plots",
+      "location": "Trimbak Road, Nashik",
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "type": "Plot",
+      "config": "Residential Plot",
+      "price": 5600000,
+      "priceLabel": "₹56 Lakhs",
+      "priceNote": "₹1,400 / sq.ft.",
+      "area": 4000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "floors": 0,
+      "status": "New Launch",
+      "possession": "Immediate registration",
+      "facing": "East",
+      "furnishing": "N/A",
+      "rating": 4.1,
+      "featured": false,
+      "isNew": true,
+      "artScene": "plot",
+      "tagline": "NA plots with compound walls on the Trimbak belt",
+      "description": "Thirty-six cleared, N.A.-converted plots along Trimbak Road with a laid internal concrete road, street lighting and a single entry gate. Each plot is levelled and boundary-walled, ready for construction drawings.",
+      "shortDescription": "Levelled, boundary-walled NA plots on Trimbak Road with internal roads already laid.",
+      "highlights": [
+        "All 36 plots N.A. converted with clear title",
+        "Internal concrete roads and storm drains complete",
+        "Levelled, walled and gate-secured"
+      ],
+      "amenities": [
+        "Compound wall with single entry gate",
+        "Internal concrete roads",
+        "Street lighting",
+        "Water line to each plot",
+        "Electricity poles with transformers",
+        "Rainwater drains"
+      ],
+      "specifications": [
+        [
+          "Conversion",
+          "N.A. order obtained, title clear"
+        ],
+        [
+          "Boundary",
+          "1.8 m brick compound wall on all sides"
+        ],
+        [
+          "Roads",
+          "6 m internal WBM-concrete roads"
+        ],
+        [
+          "Water",
+          "Municipal connection point at each plot"
+        ],
+        [
+          "Power",
+          "MSEB supply with street lighting"
+        ],
+        [
+          "Levels",
+          "Plots levelled to road crown"
+        ]
+      ],
+      "nearby": [
+        [
+          "Trimbakeshwar temple route",
+          "9 km"
+        ],
+        [
+          "Nashik CBS",
+          "7.5 km"
+        ],
+        [
+          "Ozar Pravaranagar MIDC",
+          "16 km"
+        ],
+        [
+          "Nashik airport",
+          "26 km"
+        ],
+        [
+          "School bus route on main road",
+          "0.2 km"
+        ]
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&q=75&auto=format&fit=crop"
+      ],
+      "photoCredit": "Unsplash (free to use)"
+    },
+    {
+      "slug": "amberwood-villa-estate",
+      "name": "Amberwood Villa Estate",
+      "location": "Mulshi Road, Pune",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "type": "Villa",
+      "config": "4 BHK Villa",
+      "price": 31000000,
+      "priceLabel": "₹3.1 Cr",
+      "priceNote": "₹12,916 / sq.ft.",
+      "area": 2400,
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "floors": 2,
+      "status": "Under Construction",
+      "possession": "Mar 2027",
+      "facing": "West",
+      "furnishing": "Unfurnished",
+      "rating": 4.7,
+      "featured": true,
+      "isNew": true,
+      "artScene": "villa",
+      "tagline": "Weekend villas looking into the Mulshi valley green",
+      "description": "Six hillside villas on Mulshi Road with floor-to-ceiling glazing on the valley face and stone-textured rear walls. Each villa comes with a private infinity-edge pool that appears to spill into the valley.",
+      "shortDescription": "Valley-facing villas with private infinity pools on the quiet side of Mulshi Road.",
+      "highlights": [
+        "Valley-facing infinity-edge pool",
+        "Floor-to-ceiling glazing on the view side",
+        "Wine-store nook and outdoor grill deck"
+      ],
+      "amenities": [
+        "Private infinity pool",
+        "Estate-wide security patrol",
+        "Clubhouse with infinity deck",
+        "Estate vegetable farm access",
+        "Nature trail network",
+        "Gated entry with visitor lounge",
+        "Rainwater harvesting",
+        "Solar street lighting"
+      ],
+      "specifications": [
+        [
+          "Structure",
+          "RCC frame with stone-clad feature walls"
+        ],
+        [
+          "Flooring",
+          "Large-format porcelain tiles, wooden deck outdoors"
+        ],
+        [
+          "Kitchen",
+          "Quartz counters, provision for island chimney"
+        ],
+        [
+          "Bathrooms",
+          "Frameless shower partitions, premium CP fittings"
+        ],
+        [
+          "Doors & Windows",
+          "Thermally broken aluminium glazing"
+        ],
+        [
+          "Electrical",
+          "Smart switchboards, generator backup"
+        ]
+      ],
+      "nearby": [
+        [
+          "Mulshi dam backwaters",
+          "11 km"
+        ],
+        [
+          "Paud village market",
+          "4.5 km"
+        ],
+        [
+          "Chandni Chowk, Pune",
+          "18 km"
+        ],
+        [
+          "Riverdale International School",
+          "6.8 km"
+        ],
+        [
+          "Pune station",
+          "26 km"
+        ]
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?w=1200&q=75&auto=format&fit=crop"
+      ],
+      "photoCredit": "Unsplash (free to use)"
+    },
+    {
+      "slug": "gulmohar-square",
+      "name": "Gulmohar Square",
+      "location": "Viman Nagar, Pune",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "type": "Apartment",
+      "config": "2 BHK Apartment",
+      "price": 7400000,
+      "priceLabel": "₹74 Lakhs",
+      "priceNote": "₹8,222 / sq.ft.",
+      "area": 900,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "floors": 0,
+      "status": "Ready to Move",
+      "possession": "Immediate",
+      "facing": "North",
+      "furnishing": "Semi-furnished",
+      "rating": 4.4,
+      "featured": false,
+      "isNew": false,
+      "artScene": "apartment",
+      "tagline": "Walk-to-work homes above the Viman Nagar treeline",
+      "description": "A mid-rise built around a retained gulmohar courtyard, five minutes on foot from Phoenix Marketcity. The semi-furnished homes include wardrobes, kitchen platform and light fixtures — keys-and-furniture ready for young families.",
+      "shortDescription": "Semi-furnished 2 BHK homes around a retained gulmohar courtyard, walkable to Phoenix Mall.",
+      "highlights": [
+        "Retained gulmohar courtyard with seating",
+        "Semi-furnished: wardrobes, kitchen, lights included",
+        "Walk to Phoenix Marketcity in 5 minutes"
+      ],
+      "amenities": [
+        "Courtyard garden",
+        "Fitness room",
+        "Children's play area",
+        "Visitor parking",
+        "CCTV security",
+        "Two high-speed lifts"
+      ],
+      "specifications": [
+        [
+          "Structure",
+          "RCC frame"
+        ],
+        [
+          "Flooring",
+          "Vitrified tiles with skirting"
+        ],
+        [
+          "Kitchen",
+          "Granite platform with sink; chimney point"
+        ],
+        [
+          "Bathrooms",
+          "Jaquar CP fittings, glazed tiles"
+        ],
+        [
+          "Doors & Windows",
+          "Flush doors, sliding windows with grills"
+        ],
+        [
+          "Electrical",
+          "Concealed copper wiring, modular switches"
+        ]
+      ],
+      "nearby": [
+        [
+          "Phoenix Marketcity",
+          "0.4 km"
+        ],
+        [
+          "Symbiosis Institute",
+          "1.1 km"
+        ],
+        [
+          "Pune airport",
+          "4.5 km"
+        ],
+        [
+          "Kalyani Nagar bridge",
+          "2.6 km"
+        ],
+        [
+          "Pune railway station",
+          "7.8 km"
+        ]
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=1200&q=75&auto=format&fit=crop"
+      ],
+      "photoCredit": "Unsplash (free to use)"
+    },
+    {
+      "slug": "stonebridge-rowhouses",
+      "name": "Stonebridge Row Houses",
+      "location": "Samarth Nagar, Nashik",
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "type": "Row House",
+      "config": "4 BHK Row House",
+      "price": 16200000,
+      "priceLabel": "₹1.62 Cr",
+      "priceNote": "₹8,100 / sq.ft.",
+      "area": 2000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "floors": 2,
+      "status": "Ready to Move",
+      "possession": "Immediate",
+      "facing": "East",
+      "furnishing": "Semi-furnished",
+      "rating": 4.6,
+      "featured": false,
+      "isNew": false,
+      "artScene": "rowhouse",
+      "tagline": "Wide-frontage row houses with garden rooms",
+      "description": "Six premium row houses on a quiet Samarth Nagar lane, each with a 26-ft frontage, a ground-floor guest suite and a rear 'garden room' that opens fully to the backyard. Built by a single family office, all six ready now.",
+      "shortDescription": "Wide-frontage 4 BHK row houses with garden rooms and guest suites in Samarth Nagar.",
+      "highlights": [
+        "26-ft wide frontage with private drive",
+        "Ground-floor guest suite with ensuite",
+        "Rear garden room opening to the backyard"
+      ],
+      "amenities": [
+        "Private rear garden",
+        "Covered parking for two cars",
+        "Gated lane with CCTV",
+        "Piped gas connection",
+        "Solar water heating",
+        "Inverter wiring"
+      ],
+      "specifications": [
+        [
+          "Structure",
+          "RCC frame with brick infill"
+        ],
+        [
+          "Flooring",
+          "Double-charged vitrified tiles"
+        ],
+        [
+          "Kitchen",
+          "Granite platform, RO point, chimney duct"
+        ],
+        [
+          "Bathrooms",
+          "Anti-skid tiles, branded CP fittings"
+        ],
+        [
+          "Doors & Windows",
+          "Engineered wood-finish doors, UPVC windows"
+        ],
+        [
+          "Electrical",
+          "Concealed wiring, geysers and AC points"
+        ]
+      ],
+      "nearby": [
+        [
+          "Samarth Nagar market",
+          "0.4 km"
+        ],
+        [
+          "Rasbihari School",
+          "1.3 km"
+        ],
+        [
+          "Mumbai Naka",
+          "3.5 km"
+        ],
+        [
+          "Nashik CBS",
+          "4.2 km"
+        ],
+        [
+          "Airport",
+          "24 km"
+        ]
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=75&auto=format&fit=crop"
+      ],
+      "photoCredit": "Unsplash (free to use)"
+    },
+    {
+      "slug": "lakefall-independent-homes",
+      "name": "Lakefall Independent Homes",
+      "location": "Saputara Road, Nashik outskirts",
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "type": "Independent House",
+      "config": "4 BHK Independent House",
+      "price": 12800000,
+      "priceLabel": "₹1.28 Cr",
+      "priceNote": "₹7,111 / sq.ft.",
+      "area": 1800,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "floors": 2,
+      "status": "New Launch",
+      "possession": "Sep 2026",
+      "facing": "North-East",
+      "furnishing": "Unfurnished",
+      "rating": 4.3,
+      "featured": false,
+      "isNew": true,
+      "artScene": "independent",
+      "tagline": "Weekend homes a short drive from the Gangapur backwaters",
+      "description": "A planned enclave of twelve independent homes on the Saputara side of the city, sized for families who want a Saturday-morning drive to the backwaters. The builder offers three interior finish palettes at booking.",
+      "shortDescription": "Twelve planned weekend homes near the Gangapur backwaters, with three finish palettes.",
+      "highlights": [
+        "Choose-from-three interior finish palettes",
+        "15-minute drive to Gangapur backwaters",
+        "Shared orchard court with mango and chikoo trees"
+      ],
+      "amenities": [
+        "Shared orchard court",
+        "Perimeter security with gate",
+        "Rainwater harvesting",
+        "Provision for home lift",
+        "EV charging point",
+        "Visitor parking bays"
+      ],
+      "specifications": [
+        [
+          "Structure",
+          "RCC frame designed for hillside winds"
+        ],
+        [
+          "Flooring",
+          "Vitrified tiles; wooden-finish options available"
+        ],
+        [
+          "Kitchen",
+          "Utility yard with sink; platform points ready"
+        ],
+        [
+          "Bathrooms",
+          "Concealed plumbing with premium CP fittings"
+        ],
+        [
+          "Doors & Windows",
+          "Large sliding openings to the view side"
+        ],
+        [
+          "Electrical",
+          "Conduits for automation; DG backup provision"
+        ]
+      ],
+      "nearby": [
+        [
+          "Gangapur backwaters",
+          "6.5 km"
+        ],
+        [
+          "Saputara Road dhaba strip",
+          "1.2 km"
+        ],
+        [
+          "Vilholi village market",
+          "2.8 km"
+        ],
+        [
+          "Nashik CBS",
+          "14 km"
+        ],
+        [
+          "Airport",
+          "20 km"
+        ]
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1200&q=75&auto=format&fit=crop"
+      ],
+      "photoCredit": "Unsplash (free to use)"
+    },
+    {
+      "slug": "verdant-acre-plots",
+      "name": "Verdant Acre Plots",
+      "location": "Ozar–Dindori belt, Nashik",
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "type": "Plot",
+      "config": "Residential Plot",
+      "price": 3250000,
+      "priceLabel": "₹32.5 Lakhs",
+      "priceNote": "₹1,300 / sq.ft.",
+      "area": 2500,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "floors": 0,
+      "status": "New Launch",
+      "possession": "Immediate registration",
+      "facing": "North",
+      "furnishing": "N/A",
+      "rating": 4,
+      "featured": false,
+      "isNew": true,
+      "artScene": "plot",
+      "tagline": "Growth-corridor plots near the Ozar MIDC belt",
+      "description": "Twenty-two plots along the Ozar–Dindori growth corridor, positioned for families working in the Ozar MIDC belt. The layout includes a small neighbourhood park plot reserved and handed to the gram panchayat.",
+      "shortDescription": "Growth-corridor residential plots near Ozar MIDC with a reserved neighbourhood park.",
+      "highlights": [
+        "Reserved 4,000 sq.ft. neighbourhood park inside the layout",
+        "10 minutes to Ozar MIDC employment belt",
+        "Clear title with individual 7/12 extracts"
+      ],
+      "amenities": [
+        "Layout park with play equipment",
+        "Internal gravel roads",
+        "Compound fencing on the main-road side",
+        "Water tank with plot connections",
+        "Street lighting on the central spine",
+        "Security cabin at entry"
+      ],
+      "specifications": [
+        [
+          "Conversion",
+          "Residential N.A. with clear 7/12 for each plot"
+        ],
+        [
+          "Boundary",
+          "Fencing on periphery; plot demarcation stones"
+        ],
+        [
+          "Roads",
+          "9 m central spine, 6 m cross roads"
+        ],
+        [
+          "Water",
+          "Overhead tank with gravity lines"
+        ],
+        [
+          "Power",
+          "MSEB network with street lights"
+        ],
+        [
+          "Levels",
+          "Graded with storm-water gully points"
+        ]
+      ],
+      "nearby": [
+        [
+          "Ozar MIDC",
+          "7 km"
+        ],
+        [
+          "Ozar Pravaranagar",
+          "9 km"
+        ],
+        [
+          "Dindori town",
+          "11 km"
+        ],
+        [
+          "Nashik CBS",
+          "24 km"
+        ],
+        [
+          "Airport",
+          "12 km"
+        ]
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=75&auto=format&fit=crop"
+      ],
+      "photoCredit": "Unsplash (free to use)"
+    },
+    {
+      "slug": "the-quarry-house",
+      "name": "The Quarry House",
+      "location": "Kaneri Phata, Nashik",
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "type": "Independent House",
+      "config": "5 BHK Independent House",
+      "price": 18500000,
+      "priceLabel": "₹1.85 Cr",
+      "priceNote": "₹9,250 / sq.ft.",
+      "area": 2000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "floors": 2,
+      "status": "Ready to Move",
+      "possession": "Immediate",
+      "facing": "West",
+      "furnishing": "Fully furnished",
+      "rating": 4.8,
+      "featured": true,
+      "isNew": false,
+      "artScene": "independent",
+      "tagline": "A basalt-and-teak family home on a corner plot",
+      "description": "A one-of-a-kind corner home finished in local basalt stone and Burma teak, with a double-height dining space and a wraparound study balcony. Fully furnished with the owner's handpicked walnut furniture — the only home in this catalogue sold as you see it.",
+      "shortDescription": "Basalt-and-teak corner home with a double-height dining space, sold fully furnished.",
+      "highlights": [
+        "Local basalt stone feature walls",
+        "Double-height dining with a skylight lantern",
+        "Wraparound study balcony on the first floor"
+      ],
+      "amenities": [
+        "Corner plot with double car porch",
+        "Landscaped corner garden",
+        "Borewell plus municipal water",
+        "Piped gas",
+        "Solar water heating",
+        "Staff room with wash"
+      ],
+      "specifications": [
+        [
+          "Structure",
+          "RCC frame with basalt-clad feature walls"
+        ],
+        [
+          "Flooring",
+          "Kota-black stone in living, wood-finish tiles upstairs"
+        ],
+        [
+          "Kitchen",
+          "Walnut-finish modular kitchen with island"
+        ],
+        [
+          "Bathrooms",
+          "Terrazzo counters, matte-black CP fittings"
+        ],
+        [
+          "Doors & Windows",
+          "Burma teak doors, steel-look glazing"
+        ],
+        [
+          "Electrical",
+          "Designer lighting plan with scene wiring"
+        ]
+      ],
+      "nearby": [
+        [
+          "Kaneri Phata",
+          "0.3 km"
+        ],
+        [
+          "Gangapur Road restaurants",
+          "2.2 km"
+        ],
+        [
+          "Ashoka Marg",
+          "3.0 km"
+        ],
+        [
+          "Nashik CBS",
+          "7 km"
+        ],
+        [
+          "Airport",
+          "27 km"
+        ]
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1556912167-f556f1f39fdf?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1200&q=75&auto=format&fit=crop"
+      ],
+      "photoCredit": "Unsplash (free to use)"
+    },
+    {
+      "slug": "saffron-street-penthouse",
+      "name": "Saffron Street Penthouse",
+      "location": "Gangapur Road, Nashik",
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "type": "Penthouse",
+      "config": "3 BHK Penthouse",
+      "price": 15500000,
+      "priceLabel": "₹1.55 Cr",
+      "priceNote": "₹9,687 / sq.ft.",
+      "area": 1600,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "floors": 1,
+      "status": "Ready to Move",
+      "possession": "Immediate",
+      "facing": "North-West",
+      "furnishing": "Semi-furnished",
+      "rating": 4.5,
+      "featured": false,
+      "isNew": false,
+      "artScene": "penthouse",
+      "tagline": "A duplex crowning a boutique Gangapur Road tower",
+      "description": "The only duplex in a boutique 11-storey tower on Gangapur Road, with a private terrace the size of a small apartment. The internal staircase climbs past a full-height window designed for Nashik's evening sky.",
+      "shortDescription": "Duplex penthouse with a private terrace terrace and full-height stair window on Gangapur Road.",
+      "highlights": [
+        "Private terrace of 600+ sq.ft. with kitchen point",
+        "Full-height window beside the floating stair",
+        "Private lift lobby with two-car parking"
+      ],
+      "amenities": [
+        "Private terrace with water point",
+        "Private lift lobby",
+        "Building rooftop garden access",
+        "Gym on the ground level",
+        "Video door phone",
+        "Two covered parking bays"
+      ],
+      "specifications": [
+        [
+          "Structure",
+          "RCC frame"
+        ],
+        [
+          "Flooring",
+          "Large-format vitrified tiles; wooden deck on terrace"
+        ],
+        [
+          "Kitchen",
+          "Platform with provision for chimney and RO"
+        ],
+        [
+          "Bathrooms",
+          "Designer tiling, glass shower partitions"
+        ],
+        [
+          "Doors & Windows",
+          "Sliding systems with mesh"
+        ],
+        [
+          "Electrical",
+          "AC points in all rooms, terrace lighting circuits"
+        ]
+      ],
+      "nearby": [
+        [
+          "Gangapur Road cafés",
+          "0.5 km"
+        ],
+        [
+          "Someshwar waterfalls route",
+          "6 km"
+        ],
+        [
+          "Ashoka Marg",
+          "2.8 km"
+        ],
+        [
+          "Nashik CBS",
+          "7.4 km"
+        ],
+        [
+          "Airport",
+          "30 km"
+        ]
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&q=75&auto=format&fit=crop"
+      ],
+      "photoCredit": "Unsplash (free to use)"
+    },
+    {
+      "slug": "willow-bend-apartments",
+      "name": "Willow Bend Apartments",
+      "location": "Wakad, Pune",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "type": "Apartment",
+      "config": "2 BHK Apartment",
+      "price": 6600000,
+      "priceLabel": "₹66 Lakhs",
+      "priceNote": "₹7,333 / sq.ft.",
+      "area": 900,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "floors": 0,
+      "status": "Under Construction",
+      "possession": "Aug 2027",
+      "facing": "East",
+      "furnishing": "Unfurnished",
+      "rating": 4.2,
+      "featured": false,
+      "isNew": true,
+      "artScene": "apartment",
+      "tagline": "Value-first 2 BHKs on Wakad's quiet inner lane",
+      "description": "A single 14-storey tower on Wakad's inner lane, priced for first-home buyers and designed around a simple promise: no space wasted on show, all of it spent on light and storage. Stilt level holds a fully-equipped residents' workshop.",
+      "shortDescription": "Value-first 2 BHK tower with a residents' workshop stilt level, on Wakad's quiet side.",
+      "highlights": [
+        "Residents' workshop and cycle hub on stilt level",
+        "Storage-first floor plans with lofts",
+        "East-facing morning-light bedrooms"
+      ],
+      "amenities": [
+        "Terrace garden",
+        "Residents' workshop",
+        "Cycle hub",
+        "Gym",
+        "Children's play court",
+        "Society store"
+      ],
+      "specifications": [
+        [
+          "Structure",
+          "RCC frame"
+        ],
+        [
+          "Flooring",
+          "Vitrified tiles"
+        ],
+        [
+          "Kitchen",
+          "Platform with drainboard; utility balcony"
+        ],
+        [
+          "Bathrooms",
+          "Anti-skid tiles, CP fittings"
+        ],
+        [
+          "Doors & Windows",
+          "Flush doors, aluminium windows"
+        ],
+        [
+          "Electrical",
+          "Concealed wiring; inverter point"
+        ]
+      ],
+      "nearby": [
+        [
+          "Wakad bridge",
+          "0.8 km"
+        ],
+        [
+          "Xion Mall",
+          "1.9 km"
+        ],
+        [
+          "Hinjawadi Phase 1",
+          "4.5 km"
+        ],
+        [
+          "Mumbai highway",
+          "2.4 km"
+        ],
+        [
+          "Pune station",
+          "16 km"
+        ]
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&q=75&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=1200&q=75&auto=format&fit=crop"
+      ],
+      "photoCredit": "Unsplash (free to use)"
+    }
+  ]
+}
