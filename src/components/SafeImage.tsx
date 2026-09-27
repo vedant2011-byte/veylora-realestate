@@ -71,11 +71,16 @@ export default function SafeImage({
     );
   }
 
+  /* Eager images get one exact src — React 19 preloads fetchPriority=high
+     imgs by URL, and a srcSet there can preload a candidate the browser
+     then ignores (wasted download + console warning). Lazy images keep
+     the full responsive srcSet. */
+  const eagerSrc = isCdn(src) ? variant(src, 1080) : src;
   return (
     <img
-      src={eager && isCdn(src) ? variant(src, 1080) : src}
-      srcSet={buildSrcSet(src)}
-      sizes={sizes}
+      src={eager ? eagerSrc : src}
+      srcSet={eager ? undefined : buildSrcSet(src)}
+      sizes={eager ? undefined : sizes}
       alt={alt}
       loading={eager ? "eager" : "lazy"}
       {...(eager ? { fetchPriority: "high" as const } : {})}

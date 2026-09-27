@@ -45,13 +45,30 @@ export default function CinematicHero({
     seq.start();
     (window as unknown as { __veydoraSeq?: FrameSequence }).__veydoraSeq = seq;
 
+    /* Display-frame plumbing — refs only, zero React re-renders: the
+       counter and chapter swaps track what the CANVAS shows (the capped
+       cinematic playhead), not raw scroll. */
+    const updateFrameUi = (frame: number) => {
+      if (counterRef.current) {
+        counterRef.current.textContent = `${String(frame + 1).padStart(3, "0")} / ${FRAME_COUNT}`;
+      }
+      const chapter = chapterAt(frame / (FRAME_COUNT - 1));
+      if (chapter !== activeChapterRef.current) {
+        CHAPTERS.forEach((_, i) => {
+          chapterRefs.current[i]?.classList.toggle("chapter-active", i === chapter);
+        });
+        activeChapterRef.current = chapter;
+      }
+    };
+    seq.onDisplayFrame = updateFrameUi;
+
     let ticking = false;
     const update = () => {
       ticking = false;
       const rect = section.getBoundingClientRect();
       const total = rect.height - window.innerHeight;
       const p = total > 0 ? clamp01(-rect.top / total) : 0;
-      seq.setProgress(p);
+      seq.setProgress(p); // target only — the engine paces the travel
 
       /* Intro fades over the opening. */
       const introOpacity = clamp01(1 - p / 0.045);
@@ -62,21 +79,8 @@ export default function CinematicHero({
       }
       if (cueRef.current) cueRef.current.style.opacity = String(clamp01(1 - p / 0.015));
 
-      /* Frame counter + progress rail. */
-      const frameNo = Math.round(p * (FRAME_COUNT - 1)) + 1;
-      if (counterRef.current) {
-        counterRef.current.textContent = `${String(frameNo).padStart(3, "0")} / ${FRAME_COUNT}`;
-      }
+      /* Progress rail. */
       if (railRef.current) railRef.current.style.transform = `scaleY(${Math.max(0.004, p)})`;
-
-      /* Chapter swap. */
-      const chapter = chapterAt(p);
-      if (chapter !== activeChapterRef.current) {
-        CHAPTERS.forEach((_, i) => {
-          chapterRefs.current[i]?.classList.toggle("chapter-active", i === chapter);
-        });
-        activeChapterRef.current = chapter;
-      }
 
       /* End-card rises over the final 4% of the film. */
       if (endcardRef.current) {

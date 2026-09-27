@@ -1,3 +1,13 @@
+interface FilmProbe {
+  currentGroup: number;
+  groupCount: number;
+  frame: number;
+  target: number;
+  totalFrames: number;
+  decodedCount: number;
+  pendingCount: number;
+}
+
 /**
  * Opt-in frame-rate monitor for performance diagnostics.
  *
@@ -15,6 +25,7 @@ export function startPerfMonitor(label = "site"): () => void {
   let raf = 0;
 
   const el = document.createElement("div");
+  const seq = () => (window as unknown as { __veydoraSeq?: FilmProbe }).__veydoraSeq;
   el.setAttribute("aria-hidden", "true");
   el.style.cssText =
     "position:fixed;left:10px;bottom:10px;z-index:99999;background:rgba(12,10,8,.88);" +
@@ -26,13 +37,19 @@ export function startPerfMonitor(label = "site"): () => void {
     frames++;
     if (t - last >= 1000) {
       const fps = Math.round((frames * 1000) / (t - last));
-      const seq = (window as unknown as { __veydoraSeq?: { decodedCount: number } }).__veydoraSeq;
-      const lines = [
-        `${label}  ${fps} fps`,
-        `canvases  ${document.querySelectorAll("canvas").length}`,
-        `dpr  ${window.devicePixelRatio}`,
-      ];
-      if (seq) lines.push(`frames decoded  ${seq.decodedCount}`);
+      const s = seq();
+      const lines = [`${label}  ${fps} fps`];
+      if (s) {
+        lines.push(
+          `sequence  ${s.currentGroup} / ${s.groupCount}`,
+          `global frame  ${Math.round(s.frame)} / ${s.totalFrames}`,
+          `target frame  ${Math.round(s.target)}`,
+          `decoded  ${s.decodedCount}`, // sliding-window size
+          `pending decodes  ${s.pendingCount}`,
+        );
+      } else {
+        lines.push(`canvases  ${document.querySelectorAll("canvas").length}`, `dpr  ${window.devicePixelRatio}`);
+      }
       el.textContent = lines.join("\n");
       frames = 0;
       last = t;
