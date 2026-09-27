@@ -1,5 +1,5 @@
 /**
- * FrameSequence — the cinematic scroll-driven frame player (v3).
+ * FrameSequence — the cinematic scroll-driven frame player (v3.1, mobile-safe).
  *
  * One engine, one film, one rAF loop. The 809-frame library (5 groups) is
  * treated as a single global timeline: the renderer thinks in globalFrame
@@ -7,19 +7,20 @@
  *
  * Playback model:
  *   scroll → targetFrame (destination, cheap)
- *   rAF loop → displayedFrame approaches target at a CAPPED speed
+ *   rAF loop → displayFrame approaches target at a CAPPED speed
  *              (cinematic motion, never a burst) → canvas draw.
  *
- * Loading model — a sliding decode window anchored at the display frame:
- *   - near ring behind/ahead stays decoded (instant scrub both ways)
- *   - an ahead-of-playhead band is kept in flight (lookahead)
- *   - far-ahead frames are FETCHED only (browser cache warm) when idle
- *   - approaching a group boundary pre-rolls the next group's first frames
- *   - obsolete decodes (now far behind the playhead) are skipped
- *   - far-behind bitmaps are released to the HTTP cache
+ * Loading model — priority order is always:
+ *   visible frame → next frames → nearby ahead → next group's opening →
+ *   far-ahead (fetch-only) → nothing else.
  *
- * The visible frame ALWAYS paints (nearest decoded neighbour) — playback
- * never blocks on a decode; the frame resolves the moment it lands.
+ * Mobile safety (real-device constraints, not emulation):
+ *   - 540px decode width  (1.9 MB/frame decoded, not 7.9)
+ *   - cache budget 16     (~31 MB live bitmaps max)
+ *   - max 2 concurrent decodes (phones choke on many parallel decoders)
+ *   - DPR 1.0 (video footage is visually fine; GPU memory matters more)
+ *   - generation tokens cancel obsolete decodes; far-behind bitmaps are
+ *     explicitly closed, and the previous group is pruned on transition.
  */
 
 export interface ManifestFrame {
@@ -60,6 +61,8 @@ export interface FrameSequenceOptions {
   lookahead?: number;
   /** Hard cap on display-frame movement per rAF tick (cinematic speed). */
   maxAdvance?: number;
+  /** Max simultaneous fetch+decode jobs. */
+  maxConcurrentDecodes?: number;
 }
 
 export class FrameSequence {
@@ -75,11 +78,15 @@ export class FrameSequence {
   private keepAhead: number;
   private lookahead: number;
   private maxAdvance: number;
+  private maxConcurrentDecodes: number;
 
-  /** In-flight decode jobs — deduped by frame index, skippable by age. */
+  /** In-flight decode jobs — deduped by frame index. */
   private pending = new Map<number, Promise<void>>();
-  private skipped = new Set<number>();
+  /** Frames whose in-flight decode was invalidated by a generation bump. */
+  private cancelled = new Set<number>();
   private failed = new Set<number>();
+  /** Monotonic token: bumping it invalidates queued-but-unstarted decodes. */
+  private generation = 0;
 
   private rafId = 0;
   private disposed = false;
@@ -95,6 +102,10 @@ export class FrameSequence {
   private dpr: number;
   /** 0 = decode at native size; otherwise clamp decode width (memory safety). */
   private decodeWidth = 0;
+
+  /** True while the playhead is moving — gates background work on phones. */
+  private isPlaying = false;
+  private fetchedOnly = new Set<number>();
 
   /** Dev diagnostics (?perf): group index + FPS live here. */
   currentGroup = 1;
@@ -112,13 +123,13 @@ export class FrameSequence {
   onDisplayFrame?: (frame: number) => void;
 
   private onFrameBound = this.onFrame.bind(this);
-  private onResizeBound = this.onResize.bind(this);
+  private onResizeBound = this.onResizeDebounced.bind(this);
+  private resizeTimer = 0;
 
   constructor(opts: FrameSequenceOptions) {
     this.manifest = opts.manifest;
     this.total = opts.manifest.total;
-    // 1080×1920 RGBA ≈ 8.3MB per decoded bitmap — the window keeps the
-    // worst case well under a few hundred MB even on phones.
+
     const isMobile = typeof window !== "undefined" && window.innerWidth < 820;
     const navMem =
       typeof navigator !== "undefined" && "deviceMemory" in navigator
@@ -126,16 +137,19 @@ export class FrameSequence {
         : undefined;
     const lowMem = navMem !== undefined && navMem <= 4;
 
-    this.cacheBudget = opts.cacheBudget ?? (isMobile ? 34 : lowMem ? 30 : 56);
-    this.keepBehind = opts.keepBehind ?? (isMobile ? 10 : 14);
-    this.keepAhead = opts.keepAhead ?? (isMobile ? 14 : 18);
-    this.lookahead = opts.lookahead ?? (isMobile ? 14 : 22);
-    // Cinematic catch-up: 3 frames/tick desktop, 2 on mobile. A huge scroll
-    // becomes a smooth ~1–1.8s glide instead of an instant teleport.
-    this.maxAdvance = opts.maxAdvance ?? (isMobile ? 2 : 3);
-    // Phones & low-memory devices decode at 720px wide — 4× less bitmap
-    // memory, visually lossless at phone canvas sizes.
-    this.decodeWidth = isMobile || lowMem ? 720 : 0;
+    /* REAL-PHONE MEMORY MATH (decoded RGBA ≈ w×h×4):
+       1080×1920 ≈ 7.9 MB/frame; 720×1280 ≈ 3.5; 540×960 ≈ 2.0.
+       Budget 16 × 2.0 ≈ 31 MB live bitmaps on phones — Safari/Chrome
+       Android both stay comfortable; the freeze point was 34 × 3.5 ≈ 120. */
+    const mobile = isMobile || lowMem;
+    this.cacheBudget = opts.cacheBudget ?? (mobile ? 16 : 56);
+    this.keepBehind = opts.keepBehind ?? (mobile ? 4 : 14);
+    this.keepAhead = opts.keepAhead ?? (mobile ? 7 : 18);
+    this.lookahead = opts.lookahead ?? (mobile ? 5 : 22);
+    this.maxConcurrentDecodes = opts.maxConcurrentDecodes ?? (mobile ? 2 : 6);
+    // Cinematic catch-up cap per tick. Mobile glides a little slower.
+    this.maxAdvance = opts.maxAdvance ?? (mobile ? 2 : 3);
+    this.decodeWidth = mobile ? 540 : 0;
     this.dpr = typeof window !== "undefined" ? window.devicePixelRatio || 1 : 1;
     if (opts.canvas) this.attachCanvas(opts.canvas);
   }
@@ -165,25 +179,31 @@ export class FrameSequence {
   dispose() {
     this.disposed = true;
     this.stop();
+    window.clearTimeout(this.resizeTimer);
     window.removeEventListener("resize", this.onResizeBound);
     window.removeEventListener("orientationchange", this.onResizeBound);
+    this.generation++; // invalidate everything still in flight
     for (const entry of this.cache.values()) this.releaseEntry(entry);
     this.cache.clear();
     this.pending.clear();
-    this.skipped.clear();
+    this.cancelled.clear();
   }
 
   /* ── scrolling in (the ONLY input path) ─────────────────── */
 
   setProgress(p: number) {
     this.targetFrame = Math.round(Math.min(1, Math.max(0, p)) * (this.total - 1));
-    this.wake(); // scroll fired while the loop was asleep
+    this.wake();
   }
 
   /** Fast-forward the display frame and repaint synchronously (tests). */
   render() {
     this.displayFrame = this.targetFrame;
-    this.scheduleWindow();
+    this.isPlaying = false;
+    const group = this.groupAt(Math.round(this.displayFrame));
+    const crossed = group !== this.currentGroup;
+    this.currentGroup = group;
+    this.scheduleWindow(crossed);
     this.draw();
   }
 
@@ -222,52 +242,33 @@ export class FrameSequence {
     );
   }
 
-  /**
-   * Compat shim: the sliding window IS the background loader. Calling it
-   * simply primes the window around the current playhead; nothing else is
-   * decoded until the playhead asks for it.
-   */
+  /** Compat shim: the sliding window IS the background loader. */
   queueBackground() {
     this.scheduleWindow();
   }
 
   get backgroundDone(): boolean {
-    // With a true rolling window there is no "all decoded" state; report
-    // the window as saturated once the ahead band is fully in flight.
-    const ahead = this.decodedAhead();
-    return ahead >= this.keepAhead;
-  }
-
-  private decodedAhead(): number {
     const start = Math.round(this.displayFrame);
     let n = 0;
     for (let i = start; i <= start + this.keepAhead; i++) if (this.cache.has(i)) n++;
-    return n;
+    return n >= this.keepAhead;
   }
 
   /* ── internals: the ONE loop ────────────────────────────── */
 
-  private releaseEntry(entry: CacheEntry) {
-    if ("close" in entry.bitmap && typeof entry.bitmap.close === "function") {
-      try {
-        entry.bitmap.close();
-      } catch {
-        /* already closed */
-      }
-    }
-  }
-
-  /** Request a frame if the loop is asleep (scroll, resize, decode landed). */
   private wake() {
     if (!this.disposed && this.ctx && !this.rafId) {
       this.rafId = requestAnimationFrame(this.onFrameBound);
     }
   }
 
-  private onResize() {
-    this.resize();
-    this.lastDrawnIndex = -1; // backing store changed — force repaint
-    this.wake();
+  private onResizeDebounced() {
+    window.clearTimeout(this.resizeTimer);
+    this.resizeTimer = window.setTimeout(() => {
+      this.resize();
+      this.lastDrawnIndex = -1;
+      this.wake();
+    }, 160);
   }
 
   private resize() {
@@ -276,12 +277,14 @@ export class FrameSequence {
     this.cssW = Math.max(1, rect.width);
     this.cssH = Math.max(1, rect.height);
     const liveDpr = window.devicePixelRatio || 1;
-    this.dpr = liveDpr;
-    // Video-sourced footage: 1.5 is visually indistinguishable from native
-    // DPR on any panel while cutting fragment work by up to ~78% vs 2.0.
-    const cap = Math.min(liveDpr, 1.5);
-    const w = Math.round(this.cssW * cap);
-    const h = Math.round(this.cssH * cap);
+    // Video-sourced footage on desktop: 1.5 is visually indistinguishable
+    // from native while cutting fragment work ~78% vs 2.0. Phones run
+    // DPR 1.0 — stable playback beats extra sharpness there.
+    const eff = this.cacheBudget <= 20 ? 1.0 : Math.min(liveDpr, 1.5);
+    const w = Math.round(this.cssW * eff);
+    const h = Math.round(this.cssH * eff);
+    // Only touch the backing store when the size actually changed —
+    // assigning canvas.width destroys the buffer and forces re-raster.
     if (this.canvas.width !== w || this.canvas.height !== h) {
       this.canvas.width = w;
       this.canvas.height = h;
@@ -293,7 +296,6 @@ export class FrameSequence {
   private onFrame(now: number) {
     if (this.disposed) return;
 
-    /* FPS diagnostics (used by the ?perf HUD). */
     this.fpsFrames++;
     if (now - this.fpsLast >= 1000) {
       this.fps = Math.round((this.fpsFrames * 1000) / (now - this.fpsLast));
@@ -301,32 +303,45 @@ export class FrameSequence {
       this.fpsLast = now;
     }
 
-    /* Cinematic catch-up: approach the scroll target at a capped speed.
-       0.12 damping keeps motion organic; maxAdvance bounds it absolutely —
-       a wild scroll glides, it never bursts. */
+    /* Cinematic catch-up toward the scroll target, speed-capped. */
     const diff = this.targetFrame - this.displayFrame;
     if (diff !== 0) {
-      const step = Math.abs(diff) <= 1 ? diff : Math.sign(diff) * Math.min(Math.abs(diff) * 0.12, this.maxAdvance);
       if (Math.abs(diff) < 0.999) this.displayFrame = this.targetFrame;
-      else this.displayFrame += step;
+      else {
+        const step = Math.sign(diff) * Math.min(Math.abs(diff) * 0.12, this.maxAdvance);
+        this.displayFrame += step;
+      }
       if (this.displayFrame < 0) this.displayFrame = 0;
       if (this.displayFrame > this.total - 1) this.displayFrame = this.total - 1;
     }
+    this.isPlaying = Math.abs(this.targetFrame - this.displayFrame) >= 0.5;
 
     const shown = Math.round(this.displayFrame);
     if (shown !== this.lastDrawnIndex) {
-      this.currentGroup = this.groupAt(shown);
-      this.scheduleWindow(); // slide the decode window to the new playhead
+      const group = this.groupAt(shown);
+      const crossedGroup = group !== this.currentGroup;
+      this.currentGroup = group;
+      this.scheduleWindow(crossedGroup); // prune the old group on crossing
       this.draw();
       this.onDisplayFrame?.(shown);
     }
 
-    /* Sleep when settled and nothing is in flight; wake() re-arms us. */
-    const settled = Math.abs(this.targetFrame - this.displayFrame) < 0.5;
-    if (settled && this.pending.size === 0) {
+    /* Sleep when settled, the window is complete, and nothing is in
+       flight — NOT merely when pending === 0 (a half-filled window with
+       dropped decodes used to sleep forever: the real-phone freeze). */
+    const head = Math.round(this.displayFrame);
+    let windowMissing = false;
+    for (let i = head; i <= head + this.keepAhead; i++) {
+      if (!this.cache.has(i) && !this.failed.has(i)) {
+        windowMissing = true;
+        break;
+      }
+    }
+    if (!this.isPlaying && this.pending.size === 0 && this.deferred.length === 0 && !windowMissing) {
       this.rafId = 0;
       return;
     }
+    if (windowMissing && this.pending.size === 0) this.scheduleWindow();
     this.rafId = requestAnimationFrame(this.onFrameBound);
   }
 
@@ -347,9 +362,9 @@ export class FrameSequence {
     const groups = this.manifest.groups;
     for (let g = 0; g < groups.length - 1; g++) {
       const boundary = groups[g].start + groups[g].count;
-      if (playhead >= boundary - this.lookahead && playhead < boundary) {
+      if (playhead >= boundary - this.lookahead - 2 && playhead < boundary) {
         const out: number[] = [];
-        const end = Math.min(this.total - 1, boundary + 17);
+        const end = Math.min(this.total - 1, boundary + Math.max(6, this.keepAhead));
         for (let i = boundary; i <= end; i++) out.push(i);
         return out;
       }
@@ -358,98 +373,133 @@ export class FrameSequence {
   }
 
   /**
-   * Re-anchor the decode window at the playhead:
-   *   behind ring (decoded) | playhead | ahead band (decoded+in flight)
-   * Priority: current frame → inner ring outward → boundary pre-roll.
-   * Far-ahead frames are fetch-only. Obsolete in-flight decodes are skipped.
+   * Re-anchor the decode window at the playhead.
+   * Priority: current → inner ahead ring → next-group pre-roll → behind
+   * ring. Far-ahead frames are FETCH-ONLY. When a group transition just
+   * happened, the previous group's bitmaps are released immediately so two
+   * sequences never sit decoded in memory at once.
    */
-  private scheduleWindow() {
+  private scheduleWindow(justCrossedGroup = false) {
     if (this.disposed) return;
     const head = Math.round(this.displayFrame);
     const order: number[] = [];
 
-    /* 1. Ahead band — the frames the film is about to need. */
-    for (let i = head; i <= Math.min(this.total - 1, head + this.keepAhead + this.lookahead); i++) {
-      order.push(i);
-    }
-
-    /* 2. Behind ring — instant backwards scrub. */
-    for (let i = head - 1; i >= Math.max(0, head - this.keepBehind); i--) {
-      order.push(i);
-    }
-
-    /* 3. Boundary pre-roll — the next sequence's opening, early. */
+    for (let i = head; i <= Math.min(this.total - 1, head + this.keepAhead); i++) order.push(i);
     order.push(...this.boundaryPreroll());
+    for (let i = head - 1; i >= Math.max(0, head - this.keepBehind); i--) order.push(i);
 
-    let inner = 0;
-    let scheduled = 0;
+    /* Two sequences must never be decoded simultaneously: on a crossing,
+       keep only the last few frames of the old group as overlap. */
+    if (justCrossedGroup) this.pruneToOverlap(head);
+
     for (const i of order) {
       if (this.cache.has(i)) continue;
-      const isAhead = i > head;
-      if (isAhead && inner >= this.lookahead) {
-        this.fetchOnly(i); // warm the HTTP cache without spending decode
+      if (this.pending.has(i) || this.failed.has(i)) continue;
+      if (i > head + this.keepAhead + 12) {
+        this.fetchOnly(i); // warm HTTP cache; never decode far-ahead frames
         continue;
       }
-      if (isAhead) inner++;
-      if (this.pending.has(i) || this.failed.has(i)) continue;
       void this.decodeFrame(i);
-      scheduled++;
-      if (scheduled >= this.lookahead + 4) break; // bounded in-flight set
     }
 
     this.releaseBehind();
   }
 
   /**
-   * Drop bitmaps far behind the playhead (bytes stay in the HTTP cache,
-   * so a fast backwards scrub re-decodes locally instead of re-downloading).
+   * Release every decoded frame outside [head - overlapBehind, head +
+   * overlapAhead]. Called on group crossings; also keeps ordinary windows
+   * honest on memory-tight devices.
    */
-  private releaseBehind() {
-    const floor = Math.round(this.displayFrame) - this.keepBehind - 4;
-    if (this.cache.size <= this.cacheBudget) {
-      // Even under budget, release clearly-obsolete far-behind entries.
-      for (const [i, entry] of this.cache) {
-        if (i < floor) {
-          this.releaseEntry(entry);
-          this.cache.delete(i);
-        }
+  private pruneToOverlap(head: number) {
+    const behind = Math.max(2, this.keepBehind);
+    const ahead = Math.max(this.keepAhead, 8);
+    for (const [i, entry] of this.cache) {
+      if (i < head - behind || i > head + ahead) {
+        this.releaseEntry(entry);
+        this.cache.delete(i);
       }
-      return;
     }
-    const sorted = [...this.cache.entries()].sort((a, b) => a[1].lastUsed - b[1].lastUsed);
-    let excess = this.cache.size - this.cacheBudget;
-    for (const [i, entry] of sorted) {
-      if (excess-- <= 0) break;
-      if (Math.abs(i - this.displayFrame) <= 2) continue; // protect playhead
-      this.releaseEntry(entry);
-      this.cache.delete(i);
+    this.generation++; // any decode that now lands outside the window is moot
+  }
+
+  private releaseBehind() {
+    const floor = Math.round(this.displayFrame) - this.keepBehind - 3;
+    for (const [i, entry] of this.cache) {
+      if (i < floor) {
+        this.releaseEntry(entry);
+        this.cache.delete(i);
+      }
+    }
+    // Hard budget: drop least-recently-used, protecting the playhead.
+    if (this.cache.size > this.cacheBudget) {
+      const sorted = [...this.cache.entries()].sort((a, b) => a[1].lastUsed - b[1].lastUsed);
+      let excess = this.cache.size - this.cacheBudget;
+      for (const [i, entry] of sorted) {
+        if (excess-- <= 0) break;
+        if (Math.abs(i - this.displayFrame) <= 2) continue;
+        this.releaseEntry(entry);
+        this.cache.delete(i);
+      }
     }
   }
 
   /** Warm the HTTP cache for a far-ahead frame without decoding it. */
-  private fetchedOnly = new Set<number>();
   private fetchOnly(index: number) {
     if (index >= this.total || this.fetchedOnly.has(index)) return;
     const frame = this.manifest.frames[index];
     if (!frame) return;
     this.fetchedOnly.add(index);
     void fetch(frame.src, { mode: "same-origin" }).catch(() => {
-      this.fetchedOnly.delete(index); // retryable later
+      this.fetchedOnly.delete(index);
     });
   }
 
-  /** Fetch + decode one frame. Deduped, retried once, skippable if stale. */
+  /** Frames the window wants but the concurrency cap deferred. */
+  private deferred: number[] = [];
+
+  /** Fetch + decode one frame. Deduped, retried once, generation-guarded. */
   private async decodeFrame(index: number): Promise<void> {
     if (index < 0 || index >= this.total) return;
     if (this.cache.has(index) || this.failed.has(index)) return;
     const inflight = this.pending.get(index);
     if (inflight) return inflight;
-    const task = this.decodeUncached(index).finally(() => this.pending.delete(index));
+    // HARD CONCURRENCY CAP: the mobile decoder chokes on parallel decodes.
+    // Overflow is DEFERRED (a queue), never dropped — dropped requests are
+    // what starved the window on real phones.
+    if (this.pending.size >= this.maxConcurrentDecodes) {
+      if (!this.deferred.includes(index)) this.deferred.push(index);
+      return;
+    }
+    const myGeneration = this.generation;
+    const task = this.decodeUncached(index, myGeneration).finally(() => {
+      this.pending.delete(index);
+      this.pumpDeferred();
+    });
     this.pending.set(index, task);
     return task;
   }
 
-  private async decodeUncached(index: number): Promise<void> {
+  /** Start the next deferred decode when a slot frees up. */
+  private pumpDeferred() {
+    if (this.disposed) return;
+    while (
+      this.deferred.length > 0 &&
+      this.pending.size < this.maxConcurrentDecodes
+    ) {
+      const next = this.deferred.shift()!;
+      // Skip work the playhead no longer wants.
+      if (this.cache.has(next) || this.failed.has(next)) continue;
+      if (Math.abs(next - Math.round(this.displayFrame)) > this.keepAhead + 20) continue;
+      const myGeneration = this.generation;
+      const task = this.decodeUncached(next, myGeneration).finally(() => {
+        this.pending.delete(next);
+        this.pumpDeferred();
+      });
+      this.pending.set(next, task);
+    }
+  }
+
+  private async decodeUncached(index: number, myGeneration: number): Promise<void> {
     const frame = this.manifest.frames[index];
     if (!frame) return;
     for (let attempt = 0; attempt < 2; attempt++) {
@@ -458,12 +508,16 @@ export class FrameSequence {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const blob = await res.blob();
 
-        /* The playhead moved on while we fetched — don't spend the main
-           thread decoding a frame nobody needs anymore (it stays in the
-           HTTP cache and decodes instantly if the user scrolls back). */
-        if (Math.abs(index - Math.round(this.displayFrame)) > this.keepAhead + 26) {
-          this.skipped.add(index);
-          return;
+        if (this.disposed) return;
+        // Obsolete work: playhead moved on, or its window generation ended.
+        const distance = Math.abs(index - Math.round(this.displayFrame));
+        if (
+          myGeneration !== this.generation ||
+          this.cancelled.has(index) ||
+          distance > this.keepAhead + 20
+        ) {
+          this.cancelled.delete(index);
+          return; // bytes are in the HTTP cache; re-decode is cheap if needed
         }
 
         let entry: CacheEntry;
@@ -473,6 +527,11 @@ export class FrameSequence {
               ? { resizeWidth: this.decodeWidth, resizeQuality: "medium" as ResizeQuality }
               : undefined;
           const bitmap = resize ? await createImageBitmap(blob, resize) : await createImageBitmap(blob);
+          if (myGeneration !== this.generation || this.disposed) {
+            // Never let a stale decode commit memory into the new window.
+            if ("close" in bitmap && typeof bitmap.close === "function") bitmap.close();
+            return;
+          }
           entry = { bitmap, width: bitmap.width, height: bitmap.height, lastUsed: performance.now() };
         } else {
           const url = URL.createObjectURL(blob);
@@ -482,19 +541,19 @@ export class FrameSequence {
             img.onerror = () => reject(new Error("decode failed"));
             img.src = url;
           });
+          if (myGeneration !== this.generation || this.disposed) return;
           entry = { bitmap: img, width: img.naturalWidth, height: img.naturalHeight, lastUsed: performance.now() };
         }
-        if (this.disposed) return;
         this.cache.set(index, entry);
-        this.lastDrawnIndex = -1; // a wanted frame may have just landed
-        this.wake(); // repaint if the loop was sleeping
+        this.lastDrawnIndex = -1; // the wanted frame may have just landed
+        this.wake();
         return;
       } catch {
         if (attempt === 1) {
           this.failed.add(index);
-          // One slow retry after a beat — transient faults recover.
           window.setTimeout(() => {
             this.failed.delete(index);
+            this.wake(); // re-arm the loop so the window can re-schedule
           }, 2500);
         } else {
           await new Promise((r) => setTimeout(r, 350));
@@ -504,6 +563,16 @@ export class FrameSequence {
   }
 
   /* ── rendering ──────────────────────────────────────────── */
+
+  private releaseEntry(entry: CacheEntry) {
+    if ("close" in entry.bitmap && typeof entry.bitmap.close === "function") {
+      try {
+        entry.bitmap.close();
+      } catch {
+        /* already closed */
+      }
+    }
+  }
 
   private pick(index: number): (CacheEntry & { index: number }) | undefined {
     if (this.cache.has(index)) {
@@ -526,12 +595,22 @@ export class FrameSequence {
     return undefined;
   }
 
+  /** The last frame index we successfully painted (fallback anchor). */
+  private lastGoodFrame = -1;
+
   private draw() {
     if (!this.ctx || !this.canvas) return;
     const clamped = Math.min(this.total - 1, Math.max(0, Math.round(this.displayFrame)));
-    const pick = this.pick(clamped);
-    if (!pick) return; // nothing decoded yet — stay dark
-    if (clamped === this.lastDrawnIndex) return;
+    let pick = this.pick(clamped);
+    /* NEVER freeze: if the wanted frame isn't decoded yet, hold the last
+       good frame on screen (a held frame, not a blank/stuck canvas). */
+    if (!pick && this.lastGoodFrame >= 0 && this.cache.has(this.lastGoodFrame)) {
+      pick = this.pick(this.lastGoodFrame);
+    }
+    if (!pick) return; // nothing at all decoded yet — stay dark
+    if (clamped === this.lastDrawnIndex && this.lastGoodFrame === clamped) return;
+
+    if (pick.index === clamped) this.lastGoodFrame = clamped;
 
     const { bitmap, width, height } = pick;
     const cw = this.canvas.width;
