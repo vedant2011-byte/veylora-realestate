@@ -1,3 +1,4 @@
+import { memo } from "react";
 import Link from "next/link";
 import type { Property } from "@/lib/types";
 import FavoriteButton from "./FavoriteButton";
@@ -19,7 +20,7 @@ export function StatusPill({ status }: { status: Property["status"] }) {
   );
 }
 
-export default function PropertyCard({ p, eager = false }: { p: Property; eager?: boolean }) {
+function PropertyCardInner({ p, eager = false }: { p: Property; eager?: boolean }) {
   return (
     <article className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-ink/10 bg-white/60 transition-shadow duration-500 hover:shadow-[0_24px_60px_-32px_rgba(23,20,16,0.35)]">
       <Link
@@ -93,6 +94,11 @@ export default function PropertyCard({ p, eager = false }: { p: Property; eager?
     </article>
   );
 }
+
+/* Memoized: favorite/compare toggles elsewhere re-render their own button
+   only — a 16-card grid never re-renders because one heart changed. */
+const PropertyCard = memo(PropertyCardInner);
+export default PropertyCard;
 
 function BedGlyph() {
   return (

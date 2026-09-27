@@ -58,6 +58,7 @@ export default function PropertyGallery({
               src={src}
               alt={`${name} — photo ${i + 1} of ${slides.length}`}
               eager={i === 0}
+              sizes="(min-width: 1024px) 900px, 92vw"
               className="h-full w-full object-cover"
             />
           </div>

@@ -10,7 +10,7 @@
  * property discovery layer.
  */
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import Link from "next/link";
 import { CHAPTERS, FRAME_COUNT, chapterAt } from "@/lib/animation/frames";
 import type { FrameSequence } from "@/lib/animation/FrameSequence";
@@ -31,7 +31,6 @@ export default function CinematicHero({
   const endcardRef = useRef<HTMLDivElement | null>(null);
   const chapterRefs = useRef<Array<HTMLDivElement | null>>([]);
   const activeChapterRef = useRef(-1);
-  const [, force] = useState(0);
 
   useEffect(() => {
     const canvas = canvasRef.current;

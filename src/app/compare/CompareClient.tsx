@@ -72,7 +72,7 @@ export default function CompareClient() {
         {items.map((p) => (
           <div key={p.slug} className="w-[86vw] shrink-0 snap-start sm:w-[420px] md:w-auto md:min-w-[280px] md:flex-1">
             <Link href={`/properties/${p.slug}`} className="block rounded-2xl border border-ink/10 bg-white/60 p-4">
-              <SafeImage src={p.photos[0]} alt="" className="h-24 w-full rounded-xl object-cover" />
+              <SafeImage src={p.photos[0]} alt="" sizes="180px" className="h-24 w-full rounded-xl object-cover" />
               <h2 className="mt-3 font-display text-lg font-semibold leading-snug tracking-tight">{p.name}</h2>
             </Link>
 

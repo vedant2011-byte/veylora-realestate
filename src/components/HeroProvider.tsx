@@ -12,10 +12,9 @@
 
 import { useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
-import { FRAME_MANIFEST, FRAME_COUNT } from "@/lib/animation/frames";
+import { FRAME_MANIFEST } from "@/lib/animation/frames";
 import { FrameSequence } from "@/lib/animation/FrameSequence";
 import { useMounted, usePrefersReducedMotion } from "@/lib/hooks";
-import { ARTWORK_PRELOAD } from "@/lib/artwork";
 
 const LoadingScreen = dynamic(() => import("./LoadingScreen"), { ssr: false });
 const CinematicHero = dynamic(() => import("./CinematicHero"), { ssr: false });
@@ -54,28 +53,14 @@ export default function HeroProvider() {
     return () => seq.dispose();
   }, []);
 
-  /* Stage 2: after entry, decode the remaining frames + prefetch artwork. */
+  /* Stage 2: after entry, decode the remaining film frames in idle time.
+     Property photos are NOT prefetched: they lazy-load on demand, and a
+     speculative prefetch list can't match the responsive srcSet URLs the
+     browser actually needs (wasted downloads + preload warnings). */
   useEffect(() => {
     if (!loaderDone && skip !== true) return;
     const seq = seqRef.current;
     if (seq && !seq.backgroundDone) seq.queueBackground();
-    const idle = (cb: () => void) => {
-      const ric = (window as unknown as { requestIdleCallback?: (f: () => void) => void }).requestIdleCallback;
-      if (typeof ric === "function") ric(cb);
-      else window.setTimeout(cb, 1800);
-    };
-    const t = window.setTimeout(() => {
-      idle(() => {
-        for (const src of ARTWORK_PRELOAD) {
-          const link = document.createElement("link");
-          link.rel = "prefetch";
-          link.as = "image";
-          link.href = src;
-          document.head.appendChild(link);
-        }
-      });
-    }, 3000);
-    return () => window.clearTimeout(t);
   }, [loaderDone, skip]);
 
   useEffect(() => {

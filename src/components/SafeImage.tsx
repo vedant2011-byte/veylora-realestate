@@ -4,25 +4,58 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 /**
- * Artwork image with graceful degradation: if the SVG fails to load,
- * a branded placeholder takes its place — never a broken-image glyph.
+ * Property image with graceful degradation and responsive delivery.
+ *
+ * - Unsplash CDN sources get a width-based srcSet + sizes, so phones fetch
+ *   ~480–760px files for card slots instead of the desktop 1200px one.
+ * - Any other source passes through untouched.
+ * - A failed image becomes a branded placeholder — never a broken glyph.
  */
+
+const CDN = "images.unsplash.com";
+const WIDTHS = [480, 760, 1080, 1400, 1920];
+
+function isCdn(src: string): boolean {
+  return src.includes(CDN);
+}
+
+function variant(src: string, w: number): string {
+  try {
+    const u = new URL(src);
+    u.searchParams.set("w", String(w));
+    if (!u.searchParams.has("q")) u.searchParams.set("q", "75");
+    u.searchParams.set("auto", "format");
+    if (!u.searchParams.has("fit")) u.searchParams.set("fit", "crop");
+    return u.toString();
+  } catch {
+    return src;
+  }
+}
+
+function buildSrcSet(src: string): string | undefined {
+  if (!isCdn(src)) return undefined;
+  return WIDTHS.map((w) => `${variant(src, w)} ${w}w`).join(", ");
+}
+
 export default function SafeImage({
   src,
   alt,
   className,
   eager = false,
+  sizes = "(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 92vw",
   style,
 }: {
   src: string;
   alt: string;
   className?: string;
   eager?: boolean;
+  /** Layout-based hint so the browser picks the right srcSet candidate. */
+  sizes?: string;
   style?: React.CSSProperties;
 }) {
   const [failed, setFailed] = useState(false);
 
-  if (failed) {
+  if (failed || !src) {
     return (
       <div
         role="img"
@@ -40,9 +73,12 @@ export default function SafeImage({
 
   return (
     <img
-      src={src}
+      src={eager && isCdn(src) ? variant(src, 1080) : src}
+      srcSet={buildSrcSet(src)}
+      sizes={sizes}
       alt={alt}
       loading={eager ? "eager" : "lazy"}
+      {...(eager ? { fetchPriority: "high" as const } : {})}
       decoding="async"
       draggable={false}
       className={className}

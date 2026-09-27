@@ -35,6 +35,7 @@ export default function LoadingScreen({
 }: Props) {
   const rafRef = useRef(0);
   const displayedRef = useRef(0);
+  const lastShownRef = useRef(-1);
   const stageRef = useRef({ manifest: 0, frames: 0, engine: 0, fonts: 0 });
   const [pct, setPct] = useState(0);
   const [phase, setPhase] = useState<"loading" | "revealing">("loading");
@@ -56,7 +57,12 @@ export default function LoadingScreen({
       const cur = displayedRef.current;
       const diff = target - cur;
       displayedRef.current = Math.abs(diff) < 0.5 ? target : cur + diff * 0.22;
-      setPct(Math.round(displayedRef.current));
+      // Re-render only when the integer % actually changes — not every rAF.
+      const shown = Math.round(displayedRef.current);
+      if (shown !== lastShownRef.current) {
+        lastShownRef.current = shown;
+        setPct(shown);
+      }
       if (displayedRef.current !== target) rafRef.current = requestAnimationFrame(tick);
     };
     rafRef.current = requestAnimationFrame(tick);
