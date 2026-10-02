@@ -7,9 +7,9 @@
  * single optimized H.264 MP4 (desktop + mobile variants, see tools/make-video.mjs)
  * and plays with the browser's own decoder:
  *
- *   poster appears instantly → first touch/swipe/wheel/click anywhere on the
- *   hero calls video.play() → the film runs on native timing (27s) →
- *   on 'ended' the end-card rises and normal page scrolling takes over.
+ *   poster appears instantly → first touch/swipe/wheel/click anywhere calls
+ *   video.play() → the film runs on native timing (27s) with the page
+ *   scroll LOCKED → on 'ended' the end-card rises and scrolling unlocks.
  *
  * No requestAnimationFrame playback loop, no scroll→frame mapping, no frame
  * decoding. Chapter copy is synced to video.currentTime via 'timeupdate'
@@ -38,6 +38,8 @@ export default function VideoHero() {
   const [videoFailed, setVideoFailed] = useState(false);
   const [buffering, setBuffering] = useState(false);
   const [reducedMotion, setReducedMotion] = useState(false);
+
+  const filmDone = phase === "done";
 
   /* Reduced motion: never auto-play the film; offer a poster + explicit path in. */
   useEffect(() => {
@@ -85,22 +87,22 @@ export default function VideoHero() {
     }
   }, []);
 
-  /* One-shot trigger set: touch, wheel, click, keys. pointermove alone is NOT
-     a trigger (hover shouldn't play); touchmove IS (a swipe should). */
+  /* One-shot trigger set, page-wide: touch, wheel, click, keys. While scroll
+     is locked there is nothing else meaningful to do, so ANY first
+     interaction starts the film. pointermove alone is NOT a trigger (hover
+     shouldn't play); touchmove IS (a swipe should). */
   useEffect(() => {
-    const section = sectionRef.current;
-    if (!section || phase !== "poster" || videoFailed) return;
-    if (reducedMotion) return;
+    if (phase !== "poster" || videoFailed || reducedMotion) return;
 
     const opts: AddEventListenerOptions = { passive: true, once: true };
     const onKey = (ev: Event) => {
       if (["Enter", " ", "ArrowDown", "PageDown"].includes((ev as KeyboardEvent).key)) startFilm();
     };
     const targets: Array<[EventTarget, string, EventListener]> = [
-      [section, "touchstart", startFilm],
-      [section, "touchmove", startFilm],
-      [section, "wheel", startFilm],
-      [section, "click", startFilm],
+      [window, "touchstart", startFilm],
+      [window, "touchmove", startFilm],
+      [window, "wheel", startFilm],
+      [window, "click", startFilm],
       [window, "keydown", onKey],
     ];
     for (const [t, name, fn] of targets) t.addEventListener(name, fn, opts);
@@ -108,6 +110,48 @@ export default function VideoHero() {
       for (const [t, name, fn] of targets) t.removeEventListener(name, fn);
     };
   }, [phase, startFilm, reducedMotion, videoFailed]);
+
+  /* Scroll lock — the page stays pinned from poster until the film ends.
+     Exceptions: video failed (never trap the user) and reduced-motion users
+     at the poster (they must be able to leave without playing). iOS needs a
+     non-passive touchmove block in addition to overflow:hidden. */
+  useEffect(() => {
+    const locked = !filmDone && !videoFailed && !(phase === "poster" && reducedMotion);
+    if (!locked) return;
+    const html = document.documentElement;
+    const body = document.body;
+    const prev = { html: html.style.overflow, body: body.style.overflow };
+    html.style.overflow = "hidden";
+    body.style.overflow = "hidden";
+    const blockTouch = (e: TouchEvent) => e.preventDefault();
+    document.addEventListener("touchmove", blockTouch, { passive: false });
+    /* Belt-and-braces: overflow:hidden stops user gestures but not focus- or
+       script-driven scrolls (Tab into an offscreen link, scrollTo calls).
+       While locked, the viewport is pinned to the film. */
+    const clamp = () => {
+      if (window.scrollY !== 0) window.scrollTo(0, 0);
+    };
+    window.addEventListener("scroll", clamp, { passive: true });
+    return () => {
+      html.style.overflow = prev.html;
+      body.style.overflow = prev.body;
+      document.removeEventListener("touchmove", blockTouch);
+      window.removeEventListener("scroll", clamp);
+    };
+  }, [phase, filmDone, videoFailed, reducedMotion]);
+
+  /* Poster-phase anchor interception: jumping to #featured mid-film would
+     scroll the film out of view, so before the film runs this link starts
+     the film instead. After the film, the same link scrolls normally. */
+  const onDiscoverClick = useCallback(
+    (e: React.MouseEvent<HTMLAnchorElement>) => {
+      if (phase === "poster" && !reducedMotion && !videoFailed) {
+        e.preventDefault();
+        startFilm();
+      }
+    },
+    [phase, reducedMotion, videoFailed, startFilm],
+  );
 
   /* Pause when scrolled out of view; release nothing while paused mid-film so
      seeking stays instant. */
@@ -141,22 +185,6 @@ export default function VideoHero() {
     }
     setBuffering(false);
   }, []);
-
-  const onSkip = useCallback(() => {
-    const video = videoRef.current;
-    if (video && !video.ended) {
-      /* Jump to the end: fires 'ended' naturally, which runs the same
-         transition path as a watched-through film. */
-      if (video.duration) video.currentTime = video.duration - 0.05;
-      video.play().catch(() => {
-        setPhase("done");
-      });
-    } else {
-      setPhase("done");
-    }
-  }, []);
-
-  const filmDone = phase === "done";
 
   return (
     <section
@@ -236,6 +264,7 @@ export default function VideoHero() {
               </Link>
               <a
                 href="#featured"
+                onClick={onDiscoverClick}
                 className="inline-flex h-12 items-center justify-center rounded-full border border-paper/35 px-7 text-[13px] font-semibold uppercase tracking-[0.18em] text-paper transition-colors duration-300 hover:border-paper hover:bg-paper/10"
               >
                 Discover More
@@ -269,17 +298,6 @@ export default function VideoHero() {
                 <span className="block h-full w-1/2 animate-[loadslide_1.1s_ease-in-out_infinite] rounded-full bg-amber" />
               </span>
             </div>
-          )}
-
-          {/* Skip affordance — the film runs 27s; nobody is forced to wait. */}
-          {phase === "playing" && (
-            <button
-              type="button"
-              onClick={onSkip}
-              className="absolute bottom-5 right-4 z-20 inline-flex h-9 items-center rounded-full border border-paper/25 bg-night/50 px-4 text-[10px] font-semibold uppercase tracking-[0.28em] text-paper/70 transition-colors hover:border-paper/60 hover:text-paper"
-            >
-              Skip
-            </button>
           )}
 
           {/* Chapter labels — driven by video.currentTime */}
