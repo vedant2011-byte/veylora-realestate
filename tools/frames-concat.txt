@@ -1,0 +1,1620 @@
+ffconcat version 1.0
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0001.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0002.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0003.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0004.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0005.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0006.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0007.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0008.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0009.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0010.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0011.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0012.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0013.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0014.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0015.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0016.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0017.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0018.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0019.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0020.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0021.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0022.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0023.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0024.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0025.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0026.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0027.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0028.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0029.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0030.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0031.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0032.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0033.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0034.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0035.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0036.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0037.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0038.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0039.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0040.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0041.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0042.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0043.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0044.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0045.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0046.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0047.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0048.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0049.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0050.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0051.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0052.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0053.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0054.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0055.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0056.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0057.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0058.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0059.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0060.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0061.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0062.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0063.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0064.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0065.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0066.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0067.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0068.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0069.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0070.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0071.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0072.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0073.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0074.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0075.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0076.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0077.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0078.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0079.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0080.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0081.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0082.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0083.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0084.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0085.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0086.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0087.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0088.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0089.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0090.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0091.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0092.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0093.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0094.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0095.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0096.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0097.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0098.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0099.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0100.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0101.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0102.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0103.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0104.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0105.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0106.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0107.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0108.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0109.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0110.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0111.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0112.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0113.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0114.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0115.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0116.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0117.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0118.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0119.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0120.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0121.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0122.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0123.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0124.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0125.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0126.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0127.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0128.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0129.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0130.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0131.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0132.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0133.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0134.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0135.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0136.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0137.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0138.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0139.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0140.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0141.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0142.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0143.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0144.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0145.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0146.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0147.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0148.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0149.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/vision/vision-0150.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0151.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0152.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0153.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0154.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0155.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0156.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0157.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0158.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0159.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0160.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0161.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0162.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0163.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0164.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0165.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0166.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0167.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0168.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0169.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0170.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0171.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0172.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0173.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0174.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0175.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0176.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0177.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0178.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0179.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0180.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0181.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0182.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0183.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0184.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0185.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0186.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0187.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0188.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0189.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0190.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0191.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0192.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0193.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0194.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0195.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0196.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0197.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0198.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0199.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0200.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0201.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0202.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0203.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0204.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0205.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0206.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0207.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0208.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0209.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0210.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0211.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0212.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0213.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0214.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0215.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0216.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0217.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0218.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0219.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0220.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0221.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0222.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0223.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0224.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0225.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0226.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0227.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0228.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0229.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0230.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0231.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0232.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0233.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0234.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0235.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0236.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0237.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0238.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0239.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0240.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0241.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0242.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0243.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0244.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0245.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0246.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0247.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0248.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0249.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0250.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0251.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0252.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0253.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0254.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0255.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0256.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0257.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0258.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0259.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0260.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0261.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0262.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0263.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0264.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0265.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0266.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0267.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0268.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0269.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0270.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0271.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0272.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0273.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0274.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0275.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0276.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0277.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0278.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0279.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0280.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0281.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0282.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0283.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0284.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0285.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0286.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0287.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0288.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0289.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0290.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0291.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0292.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0293.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0294.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0295.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0296.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0297.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0298.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0299.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0300.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0301.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0302.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0303.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0304.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0305.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0306.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0307.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0308.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0309.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0310.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0311.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0312.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/structure/structure-0313.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0314.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0315.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0316.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0317.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0318.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0319.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0320.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0321.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0322.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0323.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0324.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0325.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0326.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0327.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0328.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0329.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0330.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0331.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0332.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0333.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0334.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0335.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0336.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0337.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0338.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0339.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0340.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0341.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0342.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0343.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0344.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0345.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0346.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0347.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0348.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0349.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0350.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0351.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0352.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0353.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0354.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0355.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0356.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0357.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0358.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0359.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0360.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0361.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0362.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0363.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0364.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0365.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0366.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0367.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0368.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0369.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0370.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0371.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0372.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0373.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0374.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0375.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0376.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0377.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0378.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0379.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0380.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0381.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0382.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0383.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0384.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0385.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0386.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0387.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0388.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0389.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0390.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0391.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0392.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0393.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0394.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0395.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0396.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0397.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0398.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0399.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0400.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0401.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0402.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0403.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0404.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0405.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0406.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0407.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0408.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0409.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0410.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0411.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0412.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0413.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0414.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0415.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0416.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0417.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0418.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0419.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0420.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0421.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0422.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0423.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0424.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0425.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0426.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0427.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0428.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0429.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0430.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0431.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0432.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0433.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0434.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0435.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0436.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0437.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0438.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0439.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0440.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0441.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0442.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0443.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0444.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0445.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0446.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0447.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0448.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0449.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0450.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0451.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0452.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0453.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0454.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0455.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0456.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0457.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0458.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0459.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0460.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0461.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0462.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0463.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0464.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0465.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0466.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0467.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0468.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0469.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0470.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0471.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0472.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0473.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0474.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0475.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/material/material-0476.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0477.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0478.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0479.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0480.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0481.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0482.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0483.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0484.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0485.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0486.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0487.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0488.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0489.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0490.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0491.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0492.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0493.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0494.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0495.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0496.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0497.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0498.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0499.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0500.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0501.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0502.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0503.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0504.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0505.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0506.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0507.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0508.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0509.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0510.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0511.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0512.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0513.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0514.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0515.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0516.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0517.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0518.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0519.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0520.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0521.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0522.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0523.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0524.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0525.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0526.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0527.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0528.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0529.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0530.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0531.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0532.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0533.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0534.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0535.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0536.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0537.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0538.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0539.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0540.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0541.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0542.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0543.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0544.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0545.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0546.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0547.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0548.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0549.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0550.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0551.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0552.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0553.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0554.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0555.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0556.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0557.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0558.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0559.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0560.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0561.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0562.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0563.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0564.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0565.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0566.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0567.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0568.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0569.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0570.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0571.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0572.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0573.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0574.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0575.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0576.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0577.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0578.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0579.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0580.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0581.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0582.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0583.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0584.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0585.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0586.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0587.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0588.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0589.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0590.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0591.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0592.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0593.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0594.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0595.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0596.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0597.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0598.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0599.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0600.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0601.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0602.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0603.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0604.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0605.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0606.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0607.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0608.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0609.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0610.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0611.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0612.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0613.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0614.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0615.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0616.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0617.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0618.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0619.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0620.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0621.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0622.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0623.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0624.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0625.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0626.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0627.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0628.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0629.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0630.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0631.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0632.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0633.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0634.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0635.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0636.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0637.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0638.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0639.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0640.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0641.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0642.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/engineering/engineering-0643.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0644.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0645.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0646.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0647.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0648.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0649.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0650.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0651.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0652.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0653.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0654.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0655.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0656.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0657.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0658.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0659.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0660.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0661.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0662.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0663.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0664.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0665.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0666.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0667.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0668.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0669.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0670.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0671.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0672.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0673.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0674.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0675.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0676.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0677.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0678.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0679.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0680.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0681.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0682.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0683.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0684.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0685.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0686.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0687.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0688.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0689.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0690.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0691.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0692.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0693.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0694.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0695.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0696.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0697.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0698.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0699.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0700.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0701.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0702.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0703.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0704.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0705.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0706.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0707.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0708.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0709.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0710.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0711.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0712.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0713.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0714.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0715.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0716.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0717.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0718.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0719.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0720.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0721.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0722.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0723.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0724.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0725.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0726.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0727.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0728.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0729.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0730.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0731.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0732.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0733.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0734.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0735.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0736.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0737.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0738.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0739.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0740.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0741.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0742.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0743.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0744.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0745.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0746.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0747.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0748.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0749.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0750.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0751.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0752.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0753.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0754.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0755.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0756.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0757.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0758.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0759.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0760.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0761.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0762.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0763.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0764.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0765.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0766.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0767.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0768.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0769.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0770.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0771.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0772.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0773.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0774.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0775.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0776.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0777.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0778.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0779.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0780.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0781.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0782.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0783.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0784.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0785.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0786.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0787.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0788.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0789.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0790.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0791.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0792.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0793.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0794.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0795.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0796.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0797.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0798.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0799.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0800.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0801.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0802.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0803.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0804.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0805.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0806.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0807.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0808.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0809.jpg'
+duration 0.033333333
+file 'C:/Users/DELL/OneDrive/Desktop/3d realestate web/web/public/frames/living/living-0809.jpg'

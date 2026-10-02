@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans, Sora } from "next/font/google";
 import "./globals.css";
-import PerfProbe from "@/components/PerfProbe";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -68,11 +67,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${sora.variable} ${jakarta.variable}`}>
-      <body>
-        {children}
-        {/* Dev/diagnostic-only FPS HUD — inert unless the URL contains ?perf. */}
-        <PerfProbe />
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

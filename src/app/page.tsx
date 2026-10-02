@@ -11,7 +11,7 @@ export default function HomePage() {
 
   return (
     <SiteShell>
-      {/* 01 — Cinematic hero (loader + 150-frame film) */}
+      {/* 01 — Cinematic hero (native video film) */}
       <HeroProvider />
 
       {/* 02 — Featured properties */}
